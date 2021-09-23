@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards div {
+    background-image: url(./img/karty-j2.jpg);
+    display: inline-block;
+    width: 60px;
+    height: 90px;
+    margin: 3px;
+}
+
+.cards {
+    overflow: auto;
+    min-width: 420px;
+    max-width: 420px;
+}
+
+#allshirts,
+#shirts {
+    font-family: 'Lobster';
+}
+
+.btnblock {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 13px 15px 13px 15px;
+    text-decoration: none;
+    border: none;
+}
+
+#sopernik {
+    background: #d93463;
+    background-image: -webkit-linear-gradient(top, #d93463, #b82b5a);
+    background-image: -moz-linear-gradient(top, #d93463, #b82b5a);
+    background-image: -ms-linear-gradient(top, #d93463, #b82b5a);
+    background-image: -o-linear-gradient(top, #d93463, #b82b5a);
+    background-image: linear-gradient(to bottom, #d93463, #b82b5a);
+}
+
+#sopernik:hover {
+    background: #b82b5a;
+    background-image: -webkit-linear-gradient(top, #b82b5a, #d93463);
+    background-image: -moz-linear-gradient(top, #b82b5a, #d93463);
+    background-image: -ms-linear-gradient(top, #b82b5a, #d93463);
+    background-image: -o-linear-gradient(top, #b82b5a, #d93463);
+    background-image: linear-gradient(to bottom, #b82b5a, #d93463);
+    text-decoration: none;
+}
+
+#mycards {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+}
+
+#mycards:hover {
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    text-decoration: none;
+}
+
+#otboy {
+    background: #121212;
+    background-image: -webkit-linear-gradient(top, #121212, #2D2D2E);
+    background-image: -moz-linear-gradient(top, #121212, #2D2D2E);
+    background-image: -ms-linear-gradient(top, #121212, #2D2D2E);
+    background-image: -o-linear-gradient(top, #121212, #2D2D2E);
+    background-image: -webkit-gradient(to bottom, #121212, #2D2D2E);
+}
+
+#otboy:hover {
+    background: #545658;
+    background-image: -webkit-linear-gradient(top, #545658, #262728);
+    background-image: -moz-linear-gradient(top, #545658, #262728);
+    background-image: -ms-linear-gradient(top, #545658, #262728);
+    background-image: -o-linear-gradient(top, #545658, #262728);
+    background-image: -webkit-gradient(to bottom, #545658, #262728);
+}
+
+#newgame {
+    background: #3DF663;
+    background-image: -webkit-linear-gradient(top, #3DF663, #1ED029);
+    background-image: -moz-linear-gradient(top, #3DF663, #1ED029);
+    background-image: -ms-linear-gradient(top, #3DF663, #1ED029);
+    background-image: -o-linear-gradient(top, #3DF663, #1ED029);
+    background-image: -webkit-gradient(to bottom, #3DF663, #1ED029);
+}
+
+#newgame:hover {
+    background: #26F192;
+    background-image: -webkit-linear-gradient(top, #26F192, #2EB522);
+    background-image: -moz-linear-gradient(top, #26F192, #2EB522);
+    background-image: -ms-linear-gradient(top, #26F192, #2EB522);
+    background-image: -o-linear-gradient(top, #26F192, #2EB522);
+    background-image: -webkit-gradient(to bottom, #26F192, #2EB522);
+}
